@@ -1,27 +1,5 @@
-<?php $this->load->view('header'); ?>
-<style>
-    body {
-        background-color: #f1f1f1;
-        padding: 20px;
-        font-family: Arial;
-    }
+<?php $this->load->view('template/header'); ?>
 
-
-    h1 {
-        font-size: 50px;
-        word-break: break-all;
-		text-align: center;
-		margin:5%;
-    }
-
-	#carouselExampleIndicators{
-		margin:5%;
-	}
-
-	p{
-		text-align: justify;
-	}
-</style>
 <div class="container">
     <h1>Seu Álbum Eternizado</h1>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -81,4 +59,4 @@
         descubra
         um universo de lembranças fotográficas único e diferenciado.</p>
 </div>
-<?php $this->load->view('footer'); ?>
+<?php $this->load->view('template/footer'); ?>

@@ -53,7 +53,7 @@ $route['default_controller'] = 'pagina';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['Home'] = 'pagina/index';
-$route['momento21'] = 'pagina/momento21';
+$route['fotos'] = 'pagina/fotos';
 
 
 

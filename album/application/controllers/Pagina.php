@@ -14,9 +14,9 @@ class Pagina extends CI_Controller{
 		$this->load->view('home', $dados);
 	}
 
-	public function momento21(){		
+	public function fotos(){		
 		$dados['titulo'] = 'Album';
-		$this->load->view('2021', $dados);
+		$this->load->view('fotos', $dados);
 	}
 
 

@@ -1,0 +1,55 @@
+#titulo {
+    margin-left: 10%;
+    font-size: 150%;
+
+}
+
+#navbarNavAltMarkup {
+    margin-left: 40%;
+}
+
+
+
+.dropdown-menu.show {
+    margin-left: 1450%;
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 2%;
+}
+
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+
+
+#carouselExampleIndicators{
+    margin:5%;
+}
+
+p{
+    text-align: justify;
+}
